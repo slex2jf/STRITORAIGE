@@ -44,3 +44,106 @@ build-generator/GenesisRecomp "rom/Streets of Rage.bin" --game config/game.toml 
 ```
 
 These commands were evaluated on Linux using the matching ROM read from its private external path. Outputs reproduce all 701 translated functions (the discovery log reports 537 initial functions before further codegen discovery). Generated path comments may differ. Never stage ROMs or private generated memory snapshots.
+
+---
+
+# Download and Play
+
+Prebuilt experimental versions of STRITORAIGE are available for **Linux x86-64** and **Windows x86-64** on the GitHub Releases page.
+
+The original Streets of Rage ROM is **not included**. You must provide your own legally obtained copy.
+
+Required ROM SHA-256: `dd44f120446654bb91c448762f3e0cd0d9b034f35d0e3266a4dc34402ada95c0`
+
+## Linux - How to run
+
+Download `StreetsOfRage1-Recomp-Linux.zip` from the GitHub Releases page and extract it completely.
+
+The main files are organized like this:
+
+- `bin/STRITORAIGE` - Linux x86-64 game executable.
+- `rom/` - folder where you must place your ROM.
+- `run.sh` - recommended launcher used to start STRITORAIGE.
+
+### ROM location
+
+Open the `rom` folder and place your legally obtained ROM there with the exact filename:
+
+`Streets of Rage.bin`
+
+The complete ROM path must be:
+
+`StreetsOfRage1-Recomp-Linux-Portable/rom/Streets of Rage.bin`
+
+### Starting the game
+
+Return to the main `StreetsOfRage1-Recomp-Linux-Portable` folder and open a terminal there.
+
+Run:
+
+`./run.sh`
+
+The actual Linux executable is located at:
+
+`bin/STRITORAIGE`
+
+However, using `run.sh` is recommended because the launcher prepares and starts STRITORAIGE correctly.
+
+If Linux reports a permission error, run:
+
+`chmod +x run.sh`
+
+`chmod +x bin/STRITORAIGE`
+
+Then start the game again with:
+
+`./run.sh`
+
+## Windows - How to run
+
+Download `StreetsOfRage1-Recomp-Windows.zip` from the GitHub Releases page and extract it completely.
+
+The main files are organized like this:
+
+- `STRITORAIGE.exe` - Windows x86-64 game executable.
+- `SDL2.dll` - required runtime library. Keep it in the same folder as `STRITORAIGE.exe`.
+- `rom/` - folder where you must place your ROM.
+- `run.bat` - recommended launcher used to start STRITORAIGE.
+
+### ROM location
+
+Open the `rom` folder and place your legally obtained ROM there with the exact filename:
+
+`Streets of Rage.bin`
+
+The complete ROM path must be:
+
+`StreetsOfRage1-Recomp-Windows-Portable/rom/Streets of Rage.bin`
+
+### Starting the game
+
+Return to the main `StreetsOfRage1-Recomp-Windows-Portable` folder.
+
+Double-click `run.bat` to start the game.
+
+The actual Windows executable is located in the main folder:
+
+`STRITORAIGE.exe`
+
+Using `run.bat` is recommended because it verifies the ROM before launching `STRITORAIGE.exe`.
+
+Do not remove or move `SDL2.dll` from the STRITORAIGE folder.
+
+## Quick reference
+
+Linux:
+- ROM: `rom/Streets of Rage.bin`
+- Executable: `bin/STRITORAIGE`
+- Start with: `./run.sh`
+
+Windows:
+- ROM: `rom/Streets of Rage.bin`
+- Executable: `STRITORAIGE.exe`
+- Start with: `run.bat`
+
+The original game ROM is not distributed with STRITORAIGE.
