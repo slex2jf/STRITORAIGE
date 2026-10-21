@@ -1,0 +1,19 @@
+{
+  "frame": "9999",
+  "cpu": "5e3bd72af6a9cf36",
+  "pc": "010410",
+  "ram": "ca3f60ae1f1ab4cf",
+  "vram": "86dd94566d5deac4",
+  "cram": "5ce3025d4c74f6a5",
+  "vsram": "c3b584ef67d3af43",
+  "regs": "c8bde5ed36341310",
+  "vdp": "8740efb67bf614d8",
+  "master": "370465408",
+  "cycles": "1288461540",
+  "total": "117444667",
+  "recompiled": "113957151",
+  "interpreted": "3487516",
+  "misses": "39150",
+  "native_percent": 97.03050288354089,
+  "interpreted_percent": 2.969497116459107
+}

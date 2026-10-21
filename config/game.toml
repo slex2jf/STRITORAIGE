@@ -1,0 +1,31 @@
+# Streets of Rage 1 - Sega Mega Drive
+# ROM SHA-256:
+# dd44f120446654bb91c448762f3e0cd0d9b034f35d0e3266a4dc34402ada95c0
+#
+# Vectors confirmed directly from ROM:
+# SSP   $00FFFF00
+# Entry $00000208
+# H-INT $00000200
+# V-INT $00019D16
+
+[game]
+output_prefix = "sor1"
+jump_table_autodiscovery = true
+
+[ram_layout]
+game_mode      = 0x000000
+vint_runcount  = 0x000000
+vint_routine   = 0x000000
+plc_pending    = 0x000000
+
+initial_ssp    = 0x00FFFF00
+vbla_stack     = 0x00FFFF00
+intr_stack     = 0x00FFFF00
+
+player_object  = 0x000000
+level_modes    = []
+
+[functions]
+extra = [0x000208, 0x000200, 0x019D16, 0x001C44, 0x001FB0, 0x001F7C, 0x00201E]
+late_extra = []
+blacklist = []

@@ -1,0 +1,170 @@
+{
+  "500": {
+    "passed": true,
+    "counts": {
+      "interp": 500,
+      "hybrid": 500
+    },
+    "diff": [],
+    "commands": {
+      "interp": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "500",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      },
+      "hybrid": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "500",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      }
+    }
+  },
+  "1000": {
+    "passed": true,
+    "counts": {
+      "interp": 1000,
+      "hybrid": 1000
+    },
+    "diff": [],
+    "commands": {
+      "interp": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "1000",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      },
+      "hybrid": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "1000",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      }
+    }
+  },
+  "3515": {
+    "passed": true,
+    "counts": {
+      "interp": 3515,
+      "hybrid": 3515
+    },
+    "diff": [],
+    "commands": {
+      "interp": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "3515",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      },
+      "hybrid": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "3515",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      }
+    }
+  },
+  "10000": {
+    "passed": true,
+    "counts": {
+      "interp": 10000,
+      "hybrid": 10000
+    },
+    "diff": [],
+    "commands": {
+      "interp": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "10000",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      },
+      "hybrid": {
+        "command": [
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/codex-cycle184/build-clean-bridge/sor1_visual_case4",
+          "/home/slex/Documentos/Projeto Street of Rage/Streets of Rage.bin",
+          "--turbo",
+          "--max-frames",
+          "10000",
+          "--input-script",
+          "/home/slex/Documentos/Projeto Street of Rage/Stritoraige.rep/experiments/hybrid-timing-manual-20261021/smoke.input"
+        ],
+        "exe_sha256": "6f713a24afdfb3adca6f871ff7f78e9aecdb8f55b97292753394e8acce494c0a",
+        "trace_frame": null,
+        "common_timing": null,
+        "boundary_timing": null,
+        "heavy_diag": "0"
+      }
+    }
+  }
+}
